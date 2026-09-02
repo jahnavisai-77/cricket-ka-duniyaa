@@ -74,7 +74,7 @@ const players = [
         country: "INDIA",
         role: "BOWLER",
         jersey: 73,
-        image: "Mohammed-siraj-Player-of-the-Match-Oval-Test-e1754401855597.jpg",
+        image: "Mohammed-Siraj-Player-of-the-Match-Oval-Test-e1754401855597.jpg",
         profile: "https://en.wikipedia.org/wiki/Mohammed_Siraj"
     },
 
