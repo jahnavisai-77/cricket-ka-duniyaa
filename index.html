@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CRICKET KA DUNIYAA 🏏</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>CRICKET KA DUNIYAA 🏏</h1>
+    <!-- ABOUT CRICKET KA DUNIYAA -->
+
+<div class="about-cricket">
+
+    <h2>🏏 Explore the World of Cricket</h2>
+
+    <p>
+        Discover cricket stars from around the world 🌍
+        Explore their roles, jersey numbers, images and
+        player profiles — all in one place.
+    </p>
+
+</div>
+
+    <!-- DARK / LIGHT MODE -->
+    <button id="themeToggle">🌙 Dark Mode</button>
+
+    <!-- SEARCH -->
+    <input
+        type="text"
+        id="playerSearch"
+        placeholder="🔎 Search player..."
+    >
+
+    <!-- COUNTRY DROPDOWN -->
+    <select id="countrySelect">
+
+        <option value="ALL">ALL COUNTRIES</option>
+        <option value="INDIA">INDIA</option>
+        <option value="AUSTRALIA">AUSTRALIA</option>
+        <option value="ENGLAND">ENGLAND</option>
+        <option value="NEW-ZEALAND">NEW ZEALAND</option>
+        <option value="SOUTH-AFRICA">SOUTH AFRICA</option>
+        <option value="PAKISTAN">PAKISTAN</option>
+        <option value="SRI-LANKA">SRI LANKA</option>
+        <option value="BANGLADESH">BANGLADESH</option>
+
+    </select>
+
+
+    <!-- ROLE DROPDOWN -->
+    <select id="roleselect">
+
+        <option value="ALL">ALL PLAYERS</option>
+        <option value="BATSMAN">BATSMEN</option>
+        <option value="BOWLER">BOWLERS</option>
+        <option value="ALL-ROUNDER">ALL-ROUNDERS</option>
+        <option value="WICKETKEEPER">WICKETKEEPERS</option>
+
+    </select>
+
+
+    <!-- PLAYER RESULTS -->
+    <div id="player-results"></div>
+
+
+    <!-- INDIA -->
+    <h2>INDIA</h2>
+    <section id="INDIA">
+    </section>
+
+
+    <!-- AUSTRALIA -->
+    <h2>AUSTRALIA</h2>
+    <section id="AUSTRALIA">
+    </section>
+
+
+    <!-- ENGLAND -->
+    <h2>ENGLAND</h2>
+    <section id="ENGLAND">
+    </section>
+
+
+    <!-- NEW ZEALAND -->
+    <h2>NEW ZEALAND</h2>
+    <section id="NEW-ZEALAND">
+    </section>
+
+
+    <!-- SOUTH AFRICA -->
+    <h2>SOUTH AFRICA</h2>
+    <section id="SOUTH-AFRICA">
+    </section>
+
+
+    <!-- PAKISTAN -->
+    <h2>PAKISTAN</h2>
+    <section id="PAKISTAN">
+    </section>
+
+
+    <!-- SRI LANKA -->
+    <h2>SRI LANKA</h2>
+    <section id="SRI-LANKA">
+    </section>
+
+
+    <!-- BANGLADESH -->
+    <h2>BANGLADESH</h2>
+    <section id="BANGLADESH">
+    </section>
+
+
+
+    <!-- PLAYER PROFILE POPUP -->
+
+    <div id="playerModal" class="modal">
+
+        <div class="modal-content">
+
+            <span id="closeModal">&times;</span>
+
+            <img
+                id="modalImage"
+                src=""
+                alt="Player"
+            >
+
+            <h2 id="modalName"></h2>
+
+            <p id="modalCountry"></p>
+
+            <p id="modalRole"></p>
+
+            <p id="modalJersey"></p>
+
+            <p id="modalDescription"></p>
+
+
+            <!-- PLAYER INSIGHTS -->
+
+            <div id="modalInsights">
+
+                <h3>Player Insights</h3>
+
+                <p id="modalBatting"></p>
+
+                <p id="modalBowling"></p>
+
+                <p id="modalSpeciality"></p>
+
+            </div>
+
+
+            <!-- WIKIPEDIA PROFILE -->
+
+            <a
+                id="modalProfile"
+                href=""
+                target="_blank"
+                class="profile-btn"
+            >
+                View Full Profile
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

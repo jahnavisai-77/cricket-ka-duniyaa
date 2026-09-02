@@ -1,0 +1,1146 @@
+/* =====================================================
+   CRICKET KA DUNIYAA 🏏
+   PREMIUM CSS
+===================================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:
+        radial-gradient(circle at top left, #0d4b4b, transparent 35%),
+        radial-gradient(circle at bottom right, #092b3a, transparent 35%),
+        linear-gradient(135deg, #06191f, #0b3439, #071f2a);
+
+    color: white;
+    min-height: 100vh;
+
+    transition:
+        background 0.4s ease,
+        color 0.4s ease;
+}
+
+
+/* =====================================================
+   MAIN TITLE
+===================================================== */
+
+h1 {
+    text-align: center;
+
+    font-size: clamp(32px, 5vw, 48px);
+
+    padding: 35px 15px 25px;
+
+    letter-spacing: 3px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.15)
+        );
+
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.35),
+        0 0 25px rgba(0, 230, 184, 0.35);
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.08);
+}
+/* =====================================================
+   ABOUT CRICKET KA DUNIYAA
+===================================================== */
+
+.about-cricket {
+
+    width: 85%;
+    max-width: 850px;
+
+    margin: 25px auto 20px;
+
+    padding: 20px 30px;
+
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.06);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    border-radius: 18px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+.about-cricket h2 {
+
+    margin: 0 0 10px;
+
+    font-size: 22px;
+
+    color: #00e6b8;
+
+    letter-spacing: 1px;
+}
+
+.about-cricket p {
+
+    margin: 0;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    color: #d7eeee;
+}
+
+
+/* =====================================================
+   THEME BUTTON
+===================================================== */
+
+#themeToggle {
+    display: block;
+
+    margin: 18px auto;
+
+    padding: 10px 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    border-radius: 25px;
+
+    border:
+        1px solid rgba(255, 255, 255, 0.2);
+
+    background:
+        rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(10px);
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+#themeToggle:hover {
+    transform: translateY(-2px);
+
+    border-color: #00e6b8;
+
+    background:
+        rgba(0, 230, 184, 0.12);
+
+    box-shadow:
+        0 0 18px rgba(0, 230, 184, 0.25);
+}
+
+
+/* =====================================================
+   SEARCH + FILTER AREA
+===================================================== */
+
+#playerSearch {
+    display: block;
+
+    width: 70%;
+    max-width: 650px;
+
+    margin: 25px auto 15px;
+
+    padding: 15px 22px;
+
+    font-size: 16px;
+
+    color: white;
+
+    background:
+        rgba(255, 255, 255, 0.08);
+
+    border:
+        1px solid rgba(255, 255, 255, 0.2);
+
+    border-radius: 30px;
+
+    outline: none;
+
+    backdrop-filter: blur(12px);
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+#playerSearch::placeholder {
+    color: #c7dddd;
+}
+
+#playerSearch:focus {
+    border-color: #00e6b8;
+
+    background:
+        rgba(255, 255, 255, 0.12);
+
+    box-shadow:
+        0 0 20px rgba(0, 230, 184, 0.25);
+}
+
+
+/* =====================================================
+   DROPDOWNS
+===================================================== */
+
+#countrySelect,
+#roleselect {
+
+    padding: 12px 18px;
+
+    margin: 10px 5px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    color: white;
+
+    background:
+        rgba(18, 60, 66, 0.9);
+
+    border:
+        1px solid rgba(255, 255, 255, 0.2);
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    outline: none;
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.2s ease;
+}
+
+#countrySelect:hover,
+#roleselect:hover {
+
+    border-color: #00e6b8;
+
+    box-shadow:
+        0 0 12px rgba(0, 230, 184, 0.2);
+
+    transform: translateY(-1px);
+}
+
+
+/* Keep your existing country dropdown positioning */
+
+#countrySelect {
+    margin-left: calc(50% - 150px);
+}
+
+
+/* =====================================================
+   COUNTRY HEADINGS
+===================================================== */
+
+h2 {
+
+    text-align: center;
+
+    margin-top: 55px;
+    margin-bottom: 25px;
+
+    font-size: clamp(25px, 4vw, 32px);
+
+    letter-spacing: 3px;
+
+    color: #ffffff;
+
+    text-shadow:
+        0 0 10px rgba(0, 230, 184, 0.45);
+
+    position: relative;
+}
+
+
+/* Small glowing line below country name */
+
+h2::after {
+
+    content: "";
+
+    display: block;
+
+    width: 70px;
+    height: 3px;
+
+    margin: 10px auto 0;
+
+    background: #00e6b8;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 0 10px rgba(0, 230, 184, 0.6);
+}
+
+
+/* =====================================================
+   PLAYER SECTION
+===================================================== */
+
+section {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(260px, 1fr));
+
+    gap: 28px;
+
+    width: 92%;
+
+    max-width: 1450px;
+
+    margin: auto;
+
+    padding: 10px 0 35px;
+}
+
+
+/* =====================================================
+   PLAYER CARD
+===================================================== */
+
+.player-card {
+
+    position: relative;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.12),
+            rgba(255, 255, 255, 0.035)
+        );
+
+    border:
+        1px solid rgba(255, 255, 255, 0.13);
+
+    border-radius: 20px;
+
+    padding: 18px;
+
+    text-align: center;
+
+    backdrop-filter: blur(14px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.28);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+
+    cursor: pointer;
+
+    overflow: hidden;
+}
+
+
+/* Subtle shine */
+
+.player-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: -100%;
+
+    width: 60%;
+    height: 100%;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, 0.08),
+            transparent
+        );
+
+    transform: skewX(-20deg);
+
+    transition: left 0.6s ease;
+}
+
+.player-card:hover::before {
+    left: 140%;
+}
+
+
+/* Card hover */
+
+.player-card:hover {
+
+    transform:
+        translateY(-8px);
+
+    border-color:
+        rgba(0, 230, 184, 0.65);
+
+    box-shadow:
+        0 20px 45px rgba(0, 0, 0, 0.45),
+        0 0 22px rgba(0, 230, 184, 0.16);
+}
+
+
+/* =====================================================
+   PLAYER NAME
+===================================================== */
+
+.player-card h3 {
+
+    font-size: 20px;
+
+    margin: 3px 0 15px;
+
+    letter-spacing: 1px;
+
+    color: white;
+
+    transition:
+        color 0.3s ease;
+}
+
+.player-card:hover h3 {
+    color: #00e6b8;
+}
+
+
+/* =====================================================
+   PLAYER IMAGE
+===================================================== */
+
+.player-card img {
+
+    width: 100%;
+
+    max-width: 250px;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 16px;
+
+    display: block;
+
+    margin: auto;
+
+    border:
+        2px solid rgba(255, 255, 255, 0.15);
+
+    transition:
+        transform 0.4s ease,
+        border-color 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+/* Image hover */
+
+.player-card:hover img {
+
+    transform:
+        scale(1.035);
+
+    border-color:
+        rgba(0, 230, 184, 0.7);
+
+    box-shadow:
+        0 0 18px rgba(0, 230, 184, 0.15);
+}
+
+
+/* =====================================================
+   PLAYER INFORMATION
+===================================================== */
+
+.player-card ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 18px 0;
+
+    text-align: left;
+}
+
+.player-card li {
+
+    padding: 7px 0;
+
+    color: #d7eeee;
+
+    font-size: 14px;
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.07);
+}
+
+.player-card li:last-child {
+    border-bottom: none;
+}
+
+
+/* =====================================================
+   PROFILE BUTTON
+===================================================== */
+
+.profile-btn {
+
+    display: inline-block;
+
+    padding: 10px 16px;
+
+    margin: 5px 3px;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(
+            135deg,
+            #00a884,
+            #00c99e
+        );
+
+    color: white;
+
+    border: none;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        filter 0.25s ease;
+}
+
+.profile-btn:hover {
+
+    transform:
+        translateY(-2px);
+
+    filter:
+        brightness(1.08);
+
+    box-shadow:
+        0 7px 18px rgba(0, 200, 160, 0.3);
+}
+
+
+/* =====================================================
+   MODAL BACKGROUND
+===================================================== */
+
+.modal {
+
+    display: none;
+
+    position: fixed;
+
+    z-index: 1000;
+
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background:
+        rgba(0, 0, 0, 0.82);
+
+    backdrop-filter:
+        blur(10px);
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+/* =====================================================
+   MODAL CONTENT
+===================================================== */
+
+.modal-content {
+
+    position: relative;
+
+    width: 90%;
+
+    max-width: 520px;
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 22px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #123f45,
+            #071e26
+        );
+
+    border:
+        1px solid rgba(255, 255, 255, 0.18);
+
+    box-shadow:
+        0 25px 70px rgba(0, 0, 0, 0.65);
+
+    animation:
+        modalAppear 0.3s ease;
+}
+
+
+/* =====================================================
+   MODAL ANIMATION
+===================================================== */
+
+@keyframes modalAppear {
+
+    from {
+        opacity: 0;
+        transform: scale(0.85) translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+
+/* =====================================================
+   MODAL IMAGE
+===================================================== */
+
+#modalImage {
+
+    width: 220px;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border:
+        4px solid #00e6b8;
+
+    margin-bottom: 15px;
+
+    box-shadow:
+        0 0 30px rgba(0, 230, 184, 0.25);
+}
+
+
+/* =====================================================
+   MODAL NAME
+===================================================== */
+
+#modalName {
+
+    font-size: 28px;
+
+    margin: 10px 0 20px;
+
+    letter-spacing: 1px;
+
+    color: white;
+}
+
+
+/* =====================================================
+   MODAL INFORMATION
+===================================================== */
+
+#modalCountry,
+#modalRole,
+#modalJersey {
+
+    font-size: 15px;
+
+    color: #d5eeee;
+
+    margin: 8px 0;
+}
+
+
+/* =====================================================
+   PLAYER DESCRIPTION
+===================================================== */
+
+#modalDescription {
+
+    line-height: 1.7;
+
+    font-size: 15px;
+
+    color: #e5f5f5;
+
+    margin: 20px 0;
+
+    padding: 16px;
+
+    background:
+        rgba(255, 255, 255, 0.06);
+
+    border-radius: 13px;
+}
+
+
+/* =====================================================
+   PLAYER INSIGHTS
+===================================================== */
+
+#modalInsights {
+
+    margin-top: 20px;
+
+    padding: 16px;
+
+    background:
+        rgba(255, 255, 255, 0.06);
+
+    border-radius: 13px;
+
+    text-align: left;
+}
+
+#modalInsights h3 {
+
+    text-align: center;
+
+    color: #00e6b8;
+
+    margin-bottom: 12px;
+}
+
+#modalInsights p {
+
+    margin: 9px 0;
+
+    line-height: 1.5;
+
+    color: #dceeee;
+}
+
+
+/* =====================================================
+   CLOSE BUTTON
+===================================================== */
+
+#closeModal {
+
+    position: absolute;
+
+    right: 18px;
+
+    top: 8px;
+
+    font-size: 35px;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition:
+        color 0.25s ease,
+        transform 0.3s ease;
+}
+
+#closeModal:hover {
+
+    color: #00e6b8;
+
+    transform:
+        rotate(90deg);
+}
+
+
+/* =====================================================
+   LIGHT MODE
+===================================================== */
+
+body.light-mode {
+
+    background:
+        radial-gradient(
+            circle at top left,
+            #d8eeee,
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #f5f7f7,
+            #dceeee,
+            #eef5f5
+        );
+
+    color: #111;
+}
+
+
+body.light-mode h1 {
+
+    background:
+        rgba(255, 255, 255, 0.65);
+
+    color: #111;
+
+    text-shadow: none;
+}
+
+
+body.light-mode h2 {
+
+    color: #111;
+
+    text-shadow: none;
+}
+
+
+body.light-mode #themeToggle {
+
+    color: #111;
+
+    background:
+        rgba(255, 255, 255, 0.75);
+
+    border-color:
+        rgba(0, 0, 0, 0.15);
+}
+
+
+body.light-mode #playerSearch {
+
+    color: #111;
+
+    background:
+        rgba(255, 255, 255, 0.75);
+
+    border-color:
+        rgba(0, 0, 0, 0.15);
+}
+
+
+body.light-mode #playerSearch::placeholder {
+
+    color: #555;
+}
+
+
+body.light-mode #countrySelect,
+body.light-mode #roleselect {
+
+    color: #111;
+
+    background:
+        rgba(255, 255, 255, 0.9);
+
+    border-color:
+        rgba(0, 0, 0, 0.15);
+}
+
+
+body.light-mode .player-card {
+
+    background:
+        rgba(255, 255, 255, 0.75);
+
+    border-color:
+        rgba(0, 0, 0, 0.12);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+body.light-mode .player-card h3 {
+
+    color: #111;
+}
+
+
+body.light-mode .player-card:hover h3 {
+
+    color: #008f78;
+}
+
+
+body.light-mode .player-card li {
+
+    color: #333;
+
+    border-bottom-color:
+        rgba(0, 0, 0, 0.08);
+}
+
+
+body.light-mode .modal-content {
+
+    background:
+        linear-gradient(
+            145deg,
+            #ffffff,
+            #dceeee
+        );
+
+    color: #111;
+}
+
+
+body.light-mode #modalName {
+
+    color: #111;
+}
+
+
+body.light-mode #modalCountry,
+body.light-mode #modalRole,
+body.light-mode #modalJersey {
+
+    color: #333;
+}
+
+
+body.light-mode #modalDescription {
+
+    color: #333;
+
+    background:
+        rgba(0, 0, 0, 0.04);
+}
+
+
+body.light-mode #modalInsights {
+
+    background:
+        rgba(0, 0, 0, 0.05);
+}
+
+
+body.light-mode #modalInsights p {
+
+    color: #333;
+}
+
+
+body.light-mode #closeModal {
+
+    color: #111;
+}
+body.light-mode .about-cricket {
+
+    background: rgba(255, 255, 255, 0.65);
+
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .about-cricket p {
+
+    color: #333;
+}
+
+
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+
+@media (max-width: 700px) {
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+        padding: 28px 10px;
+    }
+
+
+    #playerSearch {
+
+        width: 90%;
+
+        font-size: 15px;
+
+        padding: 13px 18px;
+    }
+
+
+    #countrySelect,
+    #roleselect {
+
+        display: block;
+
+        width: 80%;
+
+        margin: 10px auto;
+    }
+
+
+    section {
+
+        grid-template-columns:
+            1fr;
+
+        width: 88%;
+
+        gap: 22px;
+    }
+
+
+    .player-card {
+
+        max-width: 400px;
+
+        width: 100%;
+
+        margin: auto;
+    }
+
+
+    .player-card img {
+
+        height: 240px;
+    }
+
+
+    h2 {
+
+        margin-top: 40px;
+
+        font-size: 25px;
+    }
+
+
+    .modal-content {
+
+        width: 94%;
+
+        padding: 22px;
+    }
+
+
+    #modalImage {
+
+        width: 170px;
+
+        height: 170px;
+    }
+
+
+    #modalName {
+
+        font-size: 24px;
+    }
+
+}
+
+
+/* =====================================================
+   EXTRA SMALL PHONES
+===================================================== */
+
+@media (max-width: 400px) {
+
+    h1 {
+
+        font-size: 26px;
+    }
+
+
+    .player-card {
+
+        padding: 15px;
+    }
+
+
+    .player-card img {
+
+        height: 210px;
+    }
+
+
+    #modalImage {
+
+        width: 145px;
+
+        height: 145px;
+    }
+
+}
+
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar {
+
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+
+    background: #071e26;
+}
+
+
+::-webkit-scrollbar-thumb {
+
+    background: #00a884;
+
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #00e6b8;
+}
