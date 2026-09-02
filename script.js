@@ -169,7 +169,7 @@ const players = [
         country: "AUSTRALIA",
         role: "ALL-ROUNDER",
         jersey: 32,
-        image: "images.jpg",
+        image: "10085.jpg",
         profile: "https://en.wikipedia.org/wiki/Glenn_Maxwell"
     },
 
